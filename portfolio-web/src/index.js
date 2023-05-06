@@ -51,6 +51,9 @@ const element = (
              * <MonCompteMenu sx={{ml:3, mr:4, my:2, py:2, bgcolor:"secondary.button", fontSize:12}}></MonCompteMenu>
              * 
              */}
+             <Button variant="contained" sx={{ml:2, mr:20, my:2, py:2, bgcolor:"secondary.button", fontSize:12}} onClick={() => window.location = "/"}>Inscription au cours</Button>
+             <Button variant="contained" sx={{ml:2, mr:20, my:2, py:2, bgcolor:"secondary.button", fontSize:12}} onClick={() => window.location = "/cv"}>Inscription au cours</Button>
+             <Button variant="contained" sx={{ml:2, mr:20, my:2, py:2, bgcolor:"secondary.button", fontSize:12}} onClick={() => window.location = "/portfolio"}>Inscription au cours</Button>
             
             
           </Div>
