@@ -4,6 +4,8 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import {Helmet} from 'react-helmet';
+
 import Home from './components/Home';
 import Cv from './components/Cv';
 import Portfolio from './components/Portfolio';
@@ -11,6 +13,9 @@ import Portfolio from './components/Portfolio';
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import AppBar from '@mui/material/AppBar';
+import Grid from '@mui/material/Grid';
+
+import theme from './theme';
 
 
 import {ThemeProvider, createTheme } from '@mui/material/styles';
@@ -18,6 +23,7 @@ import { unstable_styleFunctionSx, styled } from '@mui/system';
 
 const Div = styled('div')(unstable_styleFunctionSx);
 
+/*
 const theme = createTheme({
   palette: {
     primary: {
@@ -33,46 +39,58 @@ const theme = createTheme({
     }
   },
 });
+*/
+
+// Define the styled component with custom styles
+const FullPageComponentWrapper = styled('div')(({ theme }) => ({
+  flexGrow: 1,
+  width: '100vw',
+  height: '100vh',
+  backgroundColor: theme.palette.secondary.two,
+}));
+
 
 
 const element = (
   
   <ThemeProvider theme={theme} >
-    <Box width="auto" height="auto" backgroundColor="primary.main" >
-      <AppBar position="static"> 
-        <Box width="auto" height="auto"  sx={{ display: 'flex' }}>
-          
-          <Div  sx={{m:"auto", color:"#000000", fontSize:20}}>
-            <h1 >BeerLog</h1>
-          </Div>
-          <Div sx={{ml:"auto", mr:3, display: 'flex'}}>
-            {/**
-             * <ListingCours sx={{ml:3, mr:4, my:2, py:2, bgcolor:"secondary.button", fontSize:12}}/>
-             * <MonCompteMenu sx={{ml:3, mr:4, my:2, py:2, bgcolor:"secondary.button", fontSize:12}}></MonCompteMenu>
-             * 
-             */}
-             <Button variant="contained" sx={{ml:2, mr:20, my:2, py:2, bgcolor:"secondary.button", fontSize:12}} onClick={() => window.location = "/"}>Inscription au cours</Button>
-             <Button variant="contained" sx={{ml:2, mr:20, my:2, py:2, bgcolor:"secondary.button", fontSize:12}} onClick={() => window.location = "/cv"}>Inscription au cours</Button>
-             <Button variant="contained" sx={{ml:2, mr:20, my:2, py:2, bgcolor:"secondary.button", fontSize:12}} onClick={() => window.location = "/portfolio"}>Inscription au cours</Button>
+    <FullPageComponentWrapper>
+      <Box width="auto" height="auto" backgroundColor="secondary.two" >
+        <AppBar position="static" sx={{bgcolor: "primary.main"}}> 
+          <Box width="auto" height="auto"  sx={{ display: 'flex' }}>
             
+            <Div  sx={{m:"auto", color:"secondary.two", fontSize:30}}>
+              <h1 >Alexandre Doneux</h1>
+            </Div>
+            <Div sx={{ml:"auto", mr:3, display: 'flex'}}>
+              {/**
+               * <ListingCours sx={{ml:3, mr:4, my:2, py:2, bgcolor:"secondary.button", fontSize:12}}/>
+               * <MonCompteMenu sx={{ml:3, mr:4, my:2, py:2, bgcolor:"secondary.button", fontSize:12}}></MonCompteMenu>
+               * 
+               */}
+              <Button variant="contained" sx={{ml:2, mr:2, my:3, py:2, bgcolor:"secondary.two", fontSize:20, color: "primary.main", fontWeight: 'bold'}} onClick={() => window.location = "/"}>Home</Button>
+              <Button variant="contained" sx={{ml:2, mr:2, my:3, py:2, bgcolor:"secondary.two", fontSize:20, color: "primary.main", fontWeight: 'bold'}} onClick={() => window.location = "/cv"}>Mon CV</Button>
+              <Button variant="contained" sx={{ml:2, mr:2, my:3, py:2, bgcolor:"secondary.two", fontSize:20, color: "primary.main", fontWeight: 'bold'}} onClick={() => window.location = "/portfolio"}>Mon portfolio</Button>
+              
+              
+            </Div>
             
-          </Div>
-          
-        </Box>
-      </AppBar>
-     
-    <Box width="auto" height="auto" backgroundColor="secondary.main" sx={{ display: 'flex' }}>
-    </Box>
-      <div id="main" >
-        <Router>
-            <Routes>
-                <Route path="/" element={<Home/>}> </Route>
-                <Route path="/cv" element={<Cv/>}> </Route>
-                <Route path="/portfolio" element={<Portfolio/>}> </Route>
-            </Routes>
-        </Router>
-      </div>
-    </Box>
+          </Box>
+        </AppBar>
+      
+      
+        <Div id="main" sx={{mx:4, my:4}}>
+          <Router>
+              <Routes>
+                  <Route path="/" element={<Home/>}> </Route>
+                  <Route path="/cv" element={<Cv/>}> </Route>
+                  <Route path="/portfolio" element={<Portfolio/>}> </Route>
+              </Routes>
+          </Router>
+        </Div>
+      </Box>
+    </FullPageComponentWrapper>
+    
   </ThemeProvider>
   
 

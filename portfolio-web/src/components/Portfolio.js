@@ -1,6 +1,7 @@
 import React from 'react';
 import Activities from './Activities';
 import Box from '@mui/material/Box';
+import Grid from '@mui/material/Grid';
 
 
 import { styled, createTheme, ThemeProvider } from '@mui/system';
@@ -28,10 +29,30 @@ function Portfolio() {
     <div>
       <h1>Hello, Portfolio!</h1>
         <p>This is a basic text component.</p>
-    
-    <Activities>
+        <Grid container spacing={2}>
+        <Grid item xs={8}>
+          <h2>
+            case 1
+          </h2>
+        </Grid>
+        <Grid item xs={4}>
+        <h2>
+            case 2
+          </h2>
+        </Grid>
+        <Grid item xs={4}>
+        <h2>
+            case 3
+          </h2>
+        </Grid>
+        <Grid item xs={8}>
+        <Activities>
 
-    </Activities>
+        </Activities>
+        </Grid>
+      </Grid>
+    
+    
     </div>
         
   );
