@@ -4,9 +4,9 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-//import Home from './components/Home';
-//import Cv from './components/Cv';
-//import Portfolio from './components/Portfolio';
+import Home from './components/Home';
+import Cv from './components/Cv';
+import Portfolio from './components/Portfolio';
 
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
@@ -64,7 +64,13 @@ const element = (
     <Box width="auto" height="auto" backgroundColor="secondary.main" sx={{ display: 'flex' }}>
     </Box>
       <div id="main" >
-          hey
+        <Router>
+            <Routes>
+                <Route path="/" element={<Home/>}> </Route>
+                <Route path="/cv" element={<Cv/>}> </Route>
+                <Route path="/portfolio" element={<Portfolio/>}> </Route>
+            </Routes>
+        </Router>
       </div>
     </Box>
   </ThemeProvider>
