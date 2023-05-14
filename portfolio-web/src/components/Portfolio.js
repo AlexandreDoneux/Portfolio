@@ -3,16 +3,12 @@ import Activities from './Activities';
 import Box from '@mui/material/Box';
 import Grid from '@mui/material/Grid';
 
+import theme from '../theme';
+
 
 import { styled, createTheme, ThemeProvider } from '@mui/system';
 
-const theme = createTheme({
-  palette: {
-    background: {
-      default: '#f5f5f5', // Replace with your desired background color
-    },
-  },
-});
+
 
 // Define the styled component with custom styles
 const FullPageComponentWrapper = styled('div')(({ theme }) => ({
@@ -27,30 +23,11 @@ const FullPageComponentWrapper = styled('div')(({ theme }) => ({
 function Portfolio() {
   return (
     <div>
-      <h1>Hello, Portfolio!</h1>
-        <p>This is a basic text component.</p>
-        <Grid container spacing={2}>
-        <Grid item xs={8}>
-          <h2>
-            case 1
-          </h2>
-        </Grid>
-        <Grid item xs={4}>
-        <h2>
-            case 2
-          </h2>
-        </Grid>
-        <Grid item xs={4}>
-        <h2>
-            case 3
-          </h2>
-        </Grid>
-        <Grid item xs={8}>
-        <Activities>
+      <h1>Vous trouverez ici l'ensemble des activités et leurs preuves</h1>
+      <p>Cliquez sur les flèches pour faire apparaitre les preuves.</p>
+      <Activities sx={{bgcolor : theme.palette.secondary.main}}>
 
-        </Activities>
-        </Grid>
-      </Grid>
+      </Activities>
     
     
     </div>
