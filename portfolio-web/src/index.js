@@ -68,7 +68,7 @@ const element = (
                * <MonCompteMenu sx={{ml:3, mr:4, my:2, py:2, bgcolor:"secondary.button", fontSize:12}}></MonCompteMenu>
                * 
                */}
-              <Button variant="contained" sx={{ml:2, mr:2, my:3, py:2, bgcolor:"secondary.two", fontSize:20, color: "primary.main", fontWeight: 'bold'}} onClick={() => window.location = "/"}>Home</Button>
+              
               <Button variant="contained" sx={{ml:2, mr:2, my:3, py:2, bgcolor:"secondary.two", fontSize:20, color: "primary.main", fontWeight: 'bold'}} onClick={() => window.location = "/cv"}>Mon CV</Button>
               <Button variant="contained" sx={{ml:2, mr:2, my:3, py:2, bgcolor:"secondary.two", fontSize:20, color: "primary.main", fontWeight: 'bold'}} onClick={() => window.location = "/portfolio"}>Mon portfolio</Button>
               
@@ -82,7 +82,7 @@ const element = (
         <Div id="main" sx={{mx:4, my:4}}>
           <Router>
               <Routes>
-                  
+                  <Route path="/" element={<Home/>}> </Route>
                   <Route path="/cv" element={<Cv/>}> </Route>
                   <Route path="/portfolio" element={<Portfolio sx={{bgcolor : "secondary.main"}}/>}> </Route>
               </Routes>
