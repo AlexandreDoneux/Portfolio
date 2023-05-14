@@ -82,7 +82,7 @@ const element = (
         <Div id="main" sx={{mx:4, my:4}}>
           <Router>
               <Routes>
-                  <Route path="/" element={<Home/>}> </Route>
+                  
                   <Route path="/cv" element={<Cv/>}> </Route>
                   <Route path="/portfolio" element={<Portfolio sx={{bgcolor : "secondary.main"}}/>}> </Route>
               </Routes>
