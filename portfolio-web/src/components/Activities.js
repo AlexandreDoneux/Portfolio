@@ -14,8 +14,6 @@ import Paper from '@mui/material/Paper';
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
 
-import FileGallery from './FileGallery';
-//import image1 from "../../public/captures/hack2021/Capture d’écran 2021-10-30 à 20.53.09.png"
 
 function createData(name, real_hours, valid_hours, link, proof) {
   return {
