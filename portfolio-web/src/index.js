@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import {Helmet} from 'react-helmet';
 
 import Home from './components/Home';
@@ -80,13 +80,13 @@ const element = (
       
       
         <Div id="main" sx={{mx:4, my:4}}>
-          <Router>
+          <HashRouter>
               <Routes>
 
                   <Route path="/Portfolio/cv" element={<Cv/>}> </Route>
                   <Route path="/Portfolio/portfolio" element={<Portfolio sx={{bgcolor : "secondary.main"}}/>}> </Route>
               </Routes>
-          </Router>
+          </HashRouter>
         </Div>
       </Box>
     </FullPageComponentWrapper>
