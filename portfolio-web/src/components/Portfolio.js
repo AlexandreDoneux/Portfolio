@@ -29,7 +29,7 @@ function Portfolio() {
 
       </Activities>
     
-    
+      <img src={process.env.PUBLIC_URL + '/logo192.png'} />
     </div>
         
   );
