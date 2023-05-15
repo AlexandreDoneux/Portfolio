@@ -1,11 +1,14 @@
 import React from 'react';
+import { unstable_styleFunctionSx, styled } from '@mui/system';
+
+const Div = styled('div')(unstable_styleFunctionSx);
 
 function Home() {
   return (
-    <div>
-      <h1>Hello, Home!</h1>
-      <p>This is a basic text component.</p>
-    </div>
+    <Div sx={{aligne:"center"}}>
+      <h1>Hello, World !</h1>
+      <h2>Rejoignez mon portfolio ou mon CV en cliquant sur les boutons</h2>
+    </Div>
   );
 }
 

@@ -28,8 +28,6 @@ function Portfolio() {
       <Activities sx={{bgcolor : theme.palette.secondary.main}}>
 
       </Activities>
-    
-      <img src={process.env.PUBLIC_URL + '/logo192.png'} />
     </div>
         
   );

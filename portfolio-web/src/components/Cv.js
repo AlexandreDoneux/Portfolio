@@ -7,8 +7,7 @@ const Embed = styled('embed')(unstable_styleFunctionSx);
 function Cv() {
   return (
     <div>
-    <Embed src={"/captures/cv/Curriculum Vitae copie.pdf"} sx={{width: '90vw', height: '100vh', flexGrow: 1, px:4}}></Embed>
-    <img src={process.env.PUBLIC_URL + '/logo192.png'} />
+    <Embed loading="lazy" src={process.env.PUBLIC_URL +"/captures.nosync/cv/Curriculum Vitae copie.pdf"} sx={{width: '90vw', height: '100vh', flexGrow: 1, px:4}}></Embed>
     </div>
   );
 }
