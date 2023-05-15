@@ -69,8 +69,8 @@ const element = (
                * 
                */}
               
-              <Button variant="contained" sx={{ml:2, mr:2, my:3, py:2, bgcolor:"secondary.two", fontSize:20, color: "primary.main", fontWeight: 'bold'}} onClick={() => window.location = "/Portfolio/cv"}>Mon CV</Button>
-              <Button variant="contained" sx={{ml:2, mr:2, my:3, py:2, bgcolor:"secondary.two", fontSize:20, color: "primary.main", fontWeight: 'bold'}} onClick={() => window.location = "/Portfolio/portfolio"}>Mon portfolio</Button>
+              <Button variant="contained" sx={{ml:2, mr:2, my:3, py:2, bgcolor:"secondary.two", fontSize:20, color: "primary.main", fontWeight: 'bold'}} onClick={() => window.location = "/cv"}>Mon CV</Button>
+              <Button variant="contained" sx={{ml:2, mr:2, my:3, py:2, bgcolor:"secondary.two", fontSize:20, color: "primary.main", fontWeight: 'bold'}} onClick={() => window.location = "/portfolio"}>Mon portfolio</Button>
               
               
             </Div>
@@ -83,8 +83,8 @@ const element = (
           <HashRouter>
               <Routes>
 
-                  <Route path="/Portfolio/cv" element={<Cv/>}> </Route>
-                  <Route path="/Portfolio/portfolio" element={<Portfolio sx={{bgcolor : "secondary.main"}}/>}> </Route>
+                  <Route path="/cv" element={<Cv/>}> </Route>
+                  <Route path="/portfolio" element={<Portfolio sx={{bgcolor : "secondary.main"}}/>}> </Route>
               </Routes>
           </HashRouter>
         </Div>
