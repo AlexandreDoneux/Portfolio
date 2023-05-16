@@ -17,9 +17,23 @@ import RedirectButton from './RedirectButton';
 
 import { unstable_styleFunctionSx, styled } from '@mui/system';
 
+import image1 from "../captures.nosync/hack2021/Capture d’ecran 2021-10-30 a 20.53.09.png"
+import image2 from "../captures.nosync/hack2021/RécupEPHEC-2.pdf"
+import image3 from "../captures.nosync/hack2021/déroulement site hackathon 2.pdf"
+import image4 from "../captures.nosync/hack2021/Hackaton EPHEC 2021.pdf"
+import image5 from "../captures.nosync/hack2022/certificat de participation.pdf"
+import image6 from "../captures.nosync/cybersecurity/Capture d’écran 2022-02-08 à 08.30.29.png"
+import image7 from "../captures.nosync/cybersecurity/Capture d’écran 2022-02-08 à 08.37.25.png"
+import image8 from "../captures.nosync/cybersecurity/Capture d’écran 2022-02-08 à 08.55.02.png"
+import image9 from "../captures.nosync/cybersecurity/Capture d’écran 2022-03-10 à 13.49.33.png"
+
+
+
 const Div = styled('div')(unstable_styleFunctionSx);
 const Embed = styled('embed')(unstable_styleFunctionSx);
 const Img = styled('img')(unstable_styleFunctionSx);
+
+
 
 
 function createData(name, real_hours, valid_hours, link, proof,text) {
@@ -44,7 +58,6 @@ function Row(props) {
 
   return (
     <React.Fragment>
-        
       <TableRow sx={{ '& > *': { borderBottom: 'unset' } }}>
         <TableCell align="left" component="th" scope="row">
           {row.name}
@@ -81,9 +94,9 @@ function Row(props) {
               {row.proof.map((proof)=>{
                 console.log(proof)
                 if(proof.endsWith(".pdf")){
-                    return <Embed loading="lazy" src={process.env.PUBLIC_URL + proof} sx={{width:"40%",height:"50em", py:2, display: "flex"}} ></Embed>
+                    return <Embed loading="lazy" src={proof} sx={{width:"40%",height:"50em", py:2, display: "flex"}} ></Embed>
                 }else{
-                    return <Img loading="lazy" src={process.env.PUBLIC_URL + proof} sx={{width:"40%",py:2, display: "flex"}}/>
+                    return <Img loading="lazy" src={proof} sx={{width:"40%",py:2, display: "flex"}}/>
                 }
               }
               )}
@@ -111,16 +124,16 @@ Row.propTypes = {
 };
 
 const rows = [
-  createData('Hackaton 2021 - 2022', 48, 10, "", ["/captures.nosync/hack2021/Capture d’écran 2021-10-30 à 20.53.09.png",
-  "/captures.nosync/hack2021/RécupEPHEC-2.pdf",
-  "/captures.nosync/hack2021/déroulement site hackathon 2.pdf",
-  "/captures.nosync/hack2021/Hackaton EPHEC 2021.pdf"],
+  createData('Hackaton 2021 - 2022', 48, 10, "", [image1,
+  image2,
+  image3,
+  image4],
    "Hackaton organisé par l'EPHEC. Voici les différents fichiers qu'il me reste. Nous avons atteins la troisième place avec mon équipe. Je suis visible sur la vidéo postée sur l'EPHEC (https://www.facebook.com/watch/?v=226586492777445) aux minutes 1:16, 1:32 et 2:22. Des photos ont étés prises par les organisateurs mais je n'y ai pas accès."),
-  createData('Hackaton 2022 - 2023', 48, 10, "", ["/captures.nosync/hack2022/certificat de participation.pdf"], "Hackaton organisé par l'EPHEC. Voici un certificat de participation. Je suis également visible sur la vidéo postée par l'EPHEC (https://www.facebook.com/ephecofficiel/videos/656781492749723/) aux minutes 0:08, 0:59, 1:10 et 1:42."),
-  createData('Cyber security Challenge', 32, 10, "", ["/captures.nosync/cybersecurity/Capture d’écran 2022-02-08 à 08.30.29.png",
-  "/captures.nosync/cybersecurity/Capture d’écran 2022-02-08 à 08.37.25.png",
-  "/captures.nosync/cybersecurity/Capture d’écran 2022-02-08 à 08.55.02.png",
-  "/captures.nosync/cybersecurity/Capture d’écran 2022-03-10 à 13.49.33.png",
+  createData('Hackaton 2022 - 2023', 48, 10, "", [image5], "Hackaton organisé par l'EPHEC. Voici un certificat de participation. Je suis également visible sur la vidéo postée par l'EPHEC (https://www.facebook.com/ephecofficiel/videos/656781492749723/) aux minutes 0:08, 0:59, 1:10 et 1:42."),
+  createData('Cyber security Challenge', 32, 10, "", [image6,
+  image7,
+  image8,
+  image9,
   "/captures.nosync/cybersecurity/Capture d’écran 2022-03-10 à 13.49.45.png",
   "/captures.nosync/cybersecurity/Capture d’écran 2022-03-11 à 21.45.45.png",
   "/captures.nosync/cybersecurity/classement cyber security challenge.png",
