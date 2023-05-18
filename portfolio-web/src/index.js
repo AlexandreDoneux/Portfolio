@@ -85,6 +85,7 @@ const element = (
                   <Route path="/" element={<Home/>}> </Route>
                   <Route path="/cv" element={<Cv/>}> </Route>
                   <Route path="/portfolio" element={<Portfolio sx={{bgcolor : "secondary.main"}}/>}> </Route>
+                  <Route path="/stage" element={<Stage sx={{bgcolor : "secondary.main"}}/>}> </Route>
               </Routes>
           </HashRouter>
         </Div>
