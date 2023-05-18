@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.f990f372.css",
-    "main.js": "/Portfolio/static/js/main.2fe3c5ca.js",
+    "main.js": "/Portfolio/static/js/main.f48c311a.js",
     "static/js/787.a8a21f2e.chunk.js": "/Portfolio/static/js/787.a8a21f2e.chunk.js",
     "static/media/Pluralsight Nodejs getting started.pdf": "/Portfolio/static/media/Pluralsight Nodejs getting started.2b9955c30efe7cdcb1f1.pdf",
     "static/media/Pluralsight webb app with nodejs and express.pdf": "/Portfolio/static/media/Pluralsight webb app with nodejs and express.9d65171483898900df16.pdf",
@@ -52,11 +52,11 @@
     "static/media/logo.svg": "/Portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/Portfolio/index.html",
     "main.f990f372.css.map": "/Portfolio/static/css/main.f990f372.css.map",
-    "main.2fe3c5ca.js.map": "/Portfolio/static/js/main.2fe3c5ca.js.map",
+    "main.f48c311a.js.map": "/Portfolio/static/js/main.f48c311a.js.map",
     "787.a8a21f2e.chunk.js.map": "/Portfolio/static/js/787.a8a21f2e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f990f372.css",
-    "static/js/main.2fe3c5ca.js"
+    "static/js/main.f48c311a.js"
   ]
 }
