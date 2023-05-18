@@ -9,6 +9,7 @@ import {Helmet} from 'react-helmet';
 import Home from './components/Home';
 import Cv from './components/Cv';
 import Portfolio from './components/Portfolio';
+import Stage from './components/Stage';
 
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
@@ -71,7 +72,7 @@ const element = (
               
               <Button variant="contained" sx={{ml:2, mr:2, my:3, py:2, bgcolor:"secondary.two", fontSize:20, color: "primary.main", fontWeight: 'bold'}} onClick={() => window.location = "/Portfolio/#/cv"}>Mon CV</Button>
               <Button variant="contained" sx={{ml:2, mr:2, my:3, py:2, bgcolor:"secondary.two", fontSize:20, color: "primary.main", fontWeight: 'bold'}} onClick={() => window.location = "/Portfolio/#/portfolio"}>Mon portfolio</Button>
-              
+              <Button variant="contained" sx={{ml:2, mr:2, my:3, py:2, bgcolor:"secondary.two", fontSize:20, color: "primary.main", fontWeight: 'bold'}} onClick={() => window.location = "/Portfolio/#/stage"}>Feedback Onstage</Button>
               
             </Div>
             

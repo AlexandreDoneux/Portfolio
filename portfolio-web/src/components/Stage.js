@@ -7,7 +7,7 @@ const Embed = styled('embed')(unstable_styleFunctionSx);
 
 //<Embed loading="lazy" src={image1} sx={{width: '90vw', height: '100vh', flexGrow: 1, px:4}}></Embed>
 
-function Cv() {
+function Stage() {
   return (
     <div>
         <h1>Comming soon !</h1>
