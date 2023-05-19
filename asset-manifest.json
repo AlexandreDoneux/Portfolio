@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.f990f372.css",
-    "main.js": "/Portfolio/static/js/main.546b072d.js",
+    "main.js": "/Portfolio/static/js/main.5705d9d5.js",
     "static/js/787.a8a21f2e.chunk.js": "/Portfolio/static/js/787.a8a21f2e.chunk.js",
     "static/media/Pluralsight Nodejs getting started.pdf": "/Portfolio/static/media/Pluralsight Nodejs getting started.2b9955c30efe7cdcb1f1.pdf",
     "static/media/Pluralsight webb app with nodejs and express.pdf": "/Portfolio/static/media/Pluralsight webb app with nodejs and express.9d65171483898900df16.pdf",
@@ -25,7 +25,7 @@
     "static/media/Capture d’ecran 2022-03-27 a 00.38.14.png": "/Portfolio/static/media/Capture d’ecran 2022-03-27 a 00.38.14.79ef0fed32f05a4e98b8.png",
     "static/media/Capture d’ecran 2021-07-14 a 17.07.41.png": "/Portfolio/static/media/Capture d’ecran 2021-07-14 a 17.07.41.8cafabf77576ce8aa288.png",
     "static/media/Capture d’ecran 2022-04-06 a 14.46.29.png": "/Portfolio/static/media/Capture d’ecran 2022-04-06 a 14.46.29.6a84628481712f68815a.png",
-    "static/media/évaluation finale stage.pdf": "/Portfolio/static/media/évaluation finale stage.400ca49e6a6bdaf0bbe7.pdf",
+    "static/media/evaluation finale stage.pdf": "/Portfolio/static/media/evaluation finale stage.400ca49e6a6bdaf0bbe7.pdf",
     "static/media/Capture d’ecran 2021-07-14 a 17.07.34.png": "/Portfolio/static/media/Capture d’ecran 2021-07-14 a 17.07.34.2b135ed2e797df26f269.png",
     "static/media/Capture d’ecran 2022-04-05 a 23.27.12.png": "/Portfolio/static/media/Capture d’ecran 2022-04-05 a 23.27.12.80542ec26a2e81334681.png",
     "static/media/Capture d’ecran 2021-09-17 a 00.19.56.png": "/Portfolio/static/media/Capture d’ecran 2021-09-17 a 00.19.56.04f18fbc0be2cd08209b.png",
@@ -55,11 +55,11 @@
     "static/media/logo.svg": "/Portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/Portfolio/index.html",
     "main.f990f372.css.map": "/Portfolio/static/css/main.f990f372.css.map",
-    "main.546b072d.js.map": "/Portfolio/static/js/main.546b072d.js.map",
+    "main.5705d9d5.js.map": "/Portfolio/static/js/main.5705d9d5.js.map",
     "787.a8a21f2e.chunk.js.map": "/Portfolio/static/js/787.a8a21f2e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f990f372.css",
-    "static/js/main.546b072d.js"
+    "static/js/main.5705d9d5.js"
   ]
 }
