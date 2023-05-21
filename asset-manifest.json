@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.f990f372.css",
-    "main.js": "/Portfolio/static/js/main.6a3f52d7.js",
+    "main.js": "/Portfolio/static/js/main.d05e8274.js",
     "static/js/787.a8a21f2e.chunk.js": "/Portfolio/static/js/787.a8a21f2e.chunk.js",
     "static/media/Pluralsight Nodejs getting started.pdf": "/Portfolio/static/media/Pluralsight Nodejs getting started.2b9955c30efe7cdcb1f1.pdf",
     "static/media/Pluralsight webb app with nodejs and express.pdf": "/Portfolio/static/media/Pluralsight webb app with nodejs and express.9d65171483898900df16.pdf",
@@ -9,6 +9,7 @@
     "static/media/reactjs_org intro a react.pdf": "/Portfolio/static/media/reactjs_org intro a react.ed6f5e0b0a3e4b387d1a.pdf",
     "static/media/Capture d’ecran 2021-10-30 a 20.53.09.png": "/Portfolio/static/media/Capture d’ecran 2021-10-30 a 20.53.09.d936c63ef39b8ef91af9.png",
     "static/media/Doc 14 mai 2023, 11.03.pdf": "/Portfolio/static/media/Doc 14 mai 2023, 11.03.31b5426bf1241a4a77c2.pdf",
+    "static/media/Doc 14 mai 2023, 11.11.pdf": "/Portfolio/static/media/Doc 14 mai 2023, 11.11.71bb9c438f4966c272af.pdf",
     "static/media/Capture d’ecran 2022-03-10 a 13.49.33.png": "/Portfolio/static/media/Capture d’ecran 2022-03-10 a 13.49.33.bb252602d9f4ab03465b.png",
     "static/media/Capture d’ecran 2022-02-08 a 08.30.29.png": "/Portfolio/static/media/Capture d’ecran 2022-02-08 a 08.30.29.df1b121c7d569cd30ae4.png",
     "static/media/Curriculum Vitae copie.pdf": "/Portfolio/static/media/Curriculum Vitae copie.a69836f652433d94ce9c.pdf",
@@ -21,7 +22,6 @@
     "static/media/Capture d’ecran 2022-03-27 a 03.31.00.png": "/Portfolio/static/media/Capture d’ecran 2022-03-27 a 03.31.00.7aa4540c7b1636286691.png",
     "static/media/Capture d’ecran 2022-04-05 a 18.10.15.png": "/Portfolio/static/media/Capture d’ecran 2022-04-05 a 18.10.15.9ff262c891de59228c64.png",
     "static/media/Capture d’ecran 2022-03-27 a 01.52.42.png": "/Portfolio/static/media/Capture d’ecran 2022-03-27 a 01.52.42.63f74871028aa0f815cd.png",
-    "static/media/Doc 14 mai 2023, 11.11.pdf": "/Portfolio/static/media/Doc 14 mai 2023, 11.11.3f99e8d77ca2567a30e7.pdf",
     "static/media/Capture d’ecran 2022-03-27 a 00.38.14.png": "/Portfolio/static/media/Capture d’ecran 2022-03-27 a 00.38.14.79ef0fed32f05a4e98b8.png",
     "static/media/Capture d’ecran 2021-07-14 a 17.07.41.png": "/Portfolio/static/media/Capture d’ecran 2021-07-14 a 17.07.41.8cafabf77576ce8aa288.png",
     "static/media/Capture d’ecran 2022-04-06 a 14.46.29.png": "/Portfolio/static/media/Capture d’ecran 2022-04-06 a 14.46.29.6a84628481712f68815a.png",
@@ -56,11 +56,11 @@
     "static/media/logo.svg": "/Portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/Portfolio/index.html",
     "main.f990f372.css.map": "/Portfolio/static/css/main.f990f372.css.map",
-    "main.6a3f52d7.js.map": "/Portfolio/static/js/main.6a3f52d7.js.map",
+    "main.d05e8274.js.map": "/Portfolio/static/js/main.d05e8274.js.map",
     "787.a8a21f2e.chunk.js.map": "/Portfolio/static/js/787.a8a21f2e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f990f372.css",
-    "static/js/main.6a3f52d7.js"
+    "static/js/main.d05e8274.js"
   ]
 }
