@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.f990f372.css",
-    "main.js": "/Portfolio/static/js/main.5705d9d5.js",
+    "main.js": "/Portfolio/static/js/main.6a3f52d7.js",
     "static/js/787.a8a21f2e.chunk.js": "/Portfolio/static/js/787.a8a21f2e.chunk.js",
     "static/media/Pluralsight Nodejs getting started.pdf": "/Portfolio/static/media/Pluralsight Nodejs getting started.2b9955c30efe7cdcb1f1.pdf",
     "static/media/Pluralsight webb app with nodejs and express.pdf": "/Portfolio/static/media/Pluralsight webb app with nodejs and express.9d65171483898900df16.pdf",
@@ -37,6 +37,7 @@
     "static/media/Capture d’ecran 2021-09-17 a 00.10.46.png": "/Portfolio/static/media/Capture d’ecran 2021-09-17 a 00.10.46.c6cf9e5bc4e70d949c54.png",
     "static/media/Capture d’ecran 2021-07-14 a 17.07.22.png": "/Portfolio/static/media/Capture d’ecran 2021-07-14 a 17.07.22.c224ee3a481b1fa3385d.png",
     "static/media/9876_Doneux_resultat_AVENTURE-2.pdf": "/Portfolio/static/media/9876_Doneux_resultat_AVENTURE-2.bad1975af10d28aa91e3.pdf",
+    "static/media/9876_Doneux_resultat_FEEDBACK.pdf": "/Portfolio/static/media/9876_Doneux_resultat_FEEDBACK.8167fbfc514068871dd7.pdf",
     "static/media/9876_Doneux_resultat_PROFESSIONNEL.pdf": "/Portfolio/static/media/9876_Doneux_resultat_PROFESSIONNEL.89f8778517a68d021134.pdf",
     "static/media/Capture d’ecran 2022-04-08 a 15.39.37.png": "/Portfolio/static/media/Capture d’ecran 2022-04-08 a 15.39.37.2a99b351f9d3ce937c65.png",
     "static/media/Capture d’ecran 2022-03-20 a 12.10.55.png": "/Portfolio/static/media/Capture d’ecran 2022-03-20 a 12.10.55.a87694c933cab5525b5d.png",
@@ -55,11 +56,11 @@
     "static/media/logo.svg": "/Portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/Portfolio/index.html",
     "main.f990f372.css.map": "/Portfolio/static/css/main.f990f372.css.map",
-    "main.5705d9d5.js.map": "/Portfolio/static/js/main.5705d9d5.js.map",
+    "main.6a3f52d7.js.map": "/Portfolio/static/js/main.6a3f52d7.js.map",
     "787.a8a21f2e.chunk.js.map": "/Portfolio/static/js/787.a8a21f2e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f990f372.css",
-    "static/js/main.5705d9d5.js"
+    "static/js/main.6a3f52d7.js"
   ]
 }
